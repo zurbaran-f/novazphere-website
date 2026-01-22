@@ -1,0 +1,82 @@
+================================================================================
+NOVAZPHERE WEBSITE - AUTOMATED SETUP INSTRUCTIONS
+================================================================================
+
+I've prepared your website for deployment! Here's what to do:
+
+STEP 1: INSTALL GITHUB DESKTOP (2 minutes)
+-------------------------------------------
+1. Go to: https://desktop.github.com/
+2. Download and install GitHub Desktop
+3. Sign in (or create a GitHub account if needed)
+
+STEP 2: UPLOAD TO GITHUB (2 minutes)
+--------------------------------------
+1. Open GitHub Desktop
+2. Click "File" → "Add Local Repository"
+3. Click "Choose..." button
+4. Navigate to and select this folder:
+   D:\NovaZphere Solutions\Automation Website
+5. Click "Publish repository"
+6. Repository name: novazphere-website
+7. IMPORTANT: Uncheck "Keep this code private" (must be PUBLIC)
+8. Click "Publish repository"
+9. Wait for upload to complete
+
+STEP 3: DEPLOY TO VERCEL (2 minutes)
+-------------------------------------
+1. Go to: https://vercel.com/signup
+2. Click "Continue with GitHub"
+3. Authorize Vercel to access your GitHub
+4. Click "Add New..." → "Project"
+5. Find "novazphere-website" in the list
+6. Click "Import" button
+7. Click "Deploy" button (don't change any settings)
+8. Wait 2-3 minutes for deployment
+
+STEP 4: GET YOUR WEBSITE URL
+-----------------------------
+After deployment completes:
+- You'll see a URL like: https://novazphere-website-xxxxx.vercel.app
+- Click that URL or copy it
+- Paste it in any web browser
+- YOUR WEBSITE IS LIVE! 🎉
+
+================================================================================
+QUICK REFERENCE
+================================================================================
+
+GitHub Desktop:     https://desktop.github.com/
+Vercel Signup:      https://vercel.com/signup
+Your Project Folder: D:\NovaZphere Solutions\Automation Website
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Problem: Can't find the folder in GitHub Desktop
+Solution: Make sure you're selecting the exact folder path shown above
+
+Problem: Repository must be public
+Solution: Uncheck "Keep this code private" when publishing
+
+Problem: Can't see your repo in Vercel
+Solution: Make sure you authorized Vercel to access GitHub
+
+Problem: Deployment fails
+Solution: Check Vercel dashboard for error messages, usually it works automatically
+
+================================================================================
+NEED HELP?
+================================================================================
+
+See these files for more details:
+- START_HERE.md - Quick 3-step guide
+- DEPLOY_NOW.md - Detailed deployment instructions
+- HOW_TO_BROWSE.md - How to access your website after deployment
+
+Or run the automated helper:
+- Open PowerShell in this folder
+- Run: .\deploy.ps1
+
+================================================================================
