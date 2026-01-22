@@ -144,7 +144,7 @@ export default function Home() {
                 Why Choose Business Automation?
               </h2>
               <p className="text-lg text-grey-medium mb-8">
-                Automation isn't just about technology—it's about transforming your business
+                Automation isn&apos;t just about technology—it&apos;s about transforming your business
                 to operate more efficiently, accurately, and profitably.
               </p>
               <ul className="space-y-4">
@@ -180,7 +180,7 @@ export default function Home() {
       <section className="py-20 bg-navy-dark text-white">
         <div className="container mx-auto px-4 lg:px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Let's Build Your Automated Future
+            Let&apos;s Build Your Automated Future
           </h2>
           <p className="text-xl text-grey-cool mb-8 max-w-2xl mx-auto">
             Join leading companies that have transformed their operations with NovaZphere Solutions.

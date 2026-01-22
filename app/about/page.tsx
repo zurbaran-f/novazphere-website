@@ -51,7 +51,7 @@ export default function AboutPage() {
               </p>
               <p>
                 Our team of automation experts brings years of experience in process optimization,
-                workflow automation, and custom solution development. We've helped dozens of
+                workflow automation, and custom solution development. We&apos;ve helped dozens of
                 companies across various industries transform their operations, reduce costs, and
                 scale efficiently.
               </p>
@@ -120,7 +120,7 @@ export default function AboutPage() {
               <div className="bg-grey-light rounded-lg p-6">
                 <h3 className="text-xl font-semibold text-navy-dark mb-2">Custom Solutions</h3>
                 <p className="text-grey-medium">
-                  We don't believe in one-size-fits-all. Every solution is tailored to your
+                  We don&apos;t believe in one-size-fits-all. Every solution is tailored to your
                   specific business needs, challenges, and goals.
                 </p>
               </div>
@@ -134,7 +134,7 @@ export default function AboutPage() {
               <div className="bg-grey-light rounded-lg p-6">
                 <h3 className="text-xl font-semibold text-navy-dark mb-2">Ongoing Support</h3>
                 <p className="text-grey-medium">
-                  Our partnership doesn't end at implementation. We provide ongoing support,
+                  Our partnership doesn&apos;t end at implementation. We provide ongoing support,
                   optimization, and updates to ensure your automation continues to deliver value.
                 </p>
               </div>
@@ -148,7 +148,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 lg:px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Work Together?</h2>
           <p className="text-xl text-grey-cool mb-8 max-w-2xl mx-auto">
-            Let's discuss how NovaZphere Solutions can help transform your business operations.
+            Let&apos;s discuss how NovaZphere Solutions can help transform your business operations.
           </p>
           <Link
             href="/contact"

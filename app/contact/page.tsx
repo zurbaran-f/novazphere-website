@@ -53,7 +53,7 @@ export default function ContactPage() {
         <div className="container mx-auto px-4 lg:px-6">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
           <p className="text-xl text-grey-cool max-w-3xl">
-            Let's discuss how we can help transform your business with automation
+            Let&apos;s discuss how we can help transform your business with automation
           </p>
         </div>
       </section>
@@ -69,7 +69,7 @@ export default function ContactPage() {
                 <div className="bg-green-50 border border-green-200 rounded-lg p-6 text-center">
                   <FiCheckCircle className="w-12 h-12 text-green-600 mx-auto mb-4" />
                   <h3 className="text-xl font-semibold text-green-800 mb-2">Thank You!</h3>
-                  <p className="text-green-700">We'll get back to you within 24 hours.</p>
+                  <p className="text-green-700">We&apos;ll get back to you within 24 hours.</p>
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-6">

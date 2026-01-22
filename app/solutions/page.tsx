@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { FiArrowRight, FiFactory, FiShoppingCart, FiHeart, FiBriefcase, FiPackage } from 'react-icons/fi'
+import { FiArrowRight, FiPackage, FiShoppingCart, FiHeart, FiBriefcase, FiBox } from 'react-icons/fi'
 
 export const metadata = {
   title: 'Industry Solutions | NovaZphere Solutions',
@@ -9,7 +9,7 @@ export const metadata = {
 export default function SolutionsPage() {
   const industries = [
     {
-      icon: <FiFactory className="w-10 h-10" />,
+      icon: <FiBox className="w-10 h-10" />,
       title: 'Manufacturing',
       description: 'Optimize production processes, inventory management, and supply chain operations.',
       href: '/solutions/manufacturing',
@@ -76,7 +76,7 @@ export default function SolutionsPage() {
       <section className="py-20 bg-grey-light">
         <div className="container mx-auto px-4 lg:px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-navy-dark mb-4">
-            Don't See Your Industry?
+            Don&apos;t See Your Industry?
           </h2>
           <p className="text-xl text-grey-medium mb-8 max-w-2xl mx-auto">
             We work with businesses across all industries. Contact us to discuss custom solutions for your sector.
